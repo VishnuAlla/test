@@ -1,8 +1,4 @@
-<style id="Main.css">
-
-</style>
-<script id="Main.js">
-Application.$controller("MainPageController", ["$scope", function ($scope) {
+Application.$controller("PagePageController", ["$scope", function ($scope) {
     "use strict";
 
     /* perform any action with the variables inside this block(on-page-load) */
@@ -22,18 +18,3 @@ Application.$controller("MainPageController", ["$scope", function ($scope) {
     };
 
 }]);
-
-</script>
-<script id="Main.variables.json">
-var _MainPage_Variables_ ={};
-</script>
-<script id="Main.html" type="text/ng-template">
-<wm-page data-ng-controller="MainPageController"> 
-    <wm-header content="header"></wm-header> 
-    <wm-content> 
-        <wm-page-content columnwidth="12"> 
-        </wm-page-content> 
-    </wm-content> 
-    <wm-footer content="footer"></wm-footer> 
-</wm-page>
-</script>
