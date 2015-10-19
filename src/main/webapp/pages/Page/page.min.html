@@ -28,12 +28,13 @@ Application.$controller("PagePageController", ["$scope", function ($scope) {
 var _PagePage_Variables_ ={};
 </script>
 <script id="Page.html" type="text/ng-template">
-<wm-page data-ng-controller="PagePageController"> 
-    <wm-header content="header"></wm-header> 
-    <wm-content> 
-        <wm-page-content columnwidth="12"> 
-        </wm-page-content> 
-    </wm-content> 
-    <wm-footer content="footer"></wm-footer> 
+<wm-page data-ng-controller="PagePageController" name="page1">
+    <wm-header content="header" name="header1"></wm-header>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-button class="btn-default" caption="Button" type="button" name="button1"></wm-button>
+        </wm-page-content>
+    </wm-content>
+    <wm-footer content="footer" name="footer1"></wm-footer>
 </wm-page>
 </script>
